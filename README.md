@@ -1,6 +1,6 @@
 # STaCK: Sentence Ordering with Temporal Commonsense Knowledge
 
-This repository contains the pytorch implementations of the paper STaCK: Sentence Ordering with Temporal Commonsense Knowledge at EMNLP 2021. 
+This repository contains the pytorch implementation of the paper STaCK: Sentence Ordering with Temporal Commonsense Knowledge appearing at EMNLP 2021. 
 <!-- The preprint version can be found [here](). -->
 
 ![Alt text](stack.png?raw=true "Illustration of STaCK.")
