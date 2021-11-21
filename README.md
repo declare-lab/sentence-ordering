@@ -13,15 +13,17 @@ Contact the authors of the paper [Sentence Ordering and Coherence Modeling using
 
 Download the stories of images in sequence SIND dataset (SIS) from the [Visual Storytelling](http://visionandlanguage.net/VIST/dataset.html) website.
 
-Keep the files in appropriate folders in `data/`
+Keep the files in appropriate directories in `data/`
 
 The ROC dataset with train, validation, and test splits are provided in this repository.
 
 ## Prepare Datasets
 
+Download the COMET model by following instaructions specified in `comet/` directory. Then, run the following:
+
 ```
 python prepare_data.py
-python prepare_csk.py
+CUDA_VISIBLE_DEVICES=0 python prepare_csk.py
 ```
 
 ## Experiments:
@@ -43,5 +45,5 @@ Please cite the following paper if the use this code in your work:
 Deepanway Ghosal, Navonil Majumder, Rada Mihalcea, Soujanya Poria. "STaCK: Sentence Ordering with Temporal Commonsense Knowledge." In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP).
 
 ## Credits
-Some of the code in this repository is borrowed from https://github.com/shrimai/Topological-Sort-for-Sentence-Ordering 
+Some of the code in this repository is borrowed from https://github.com/shrimai/Topological-Sort-for-Sentence-Ordering and https://github.com/allenai/comet-atomic-2020
 
